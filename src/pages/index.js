@@ -27,9 +27,6 @@ const IndexPage = () => (
     <p>When it comes to things other than computer science, I'm also a huge fan of movies and books. I enjoy watching movies with
       friends and families on my free time and I always enjoy discovering new books. 
     </p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
     <br />
   </Layout>
 )

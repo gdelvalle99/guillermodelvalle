@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             margin: 10,
           }}
-          >Work</Link>
+          >Experience</Link>
       </p>
     </div>
   </header>

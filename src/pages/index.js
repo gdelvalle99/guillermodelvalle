@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import resume from '../downloads/resume.pdf'
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +18,7 @@ const IndexPage = () => (
     <h4>What's this website for?</h4>
     <p>This website is to show off some of my work that I've done over the years. Within this website,
       I've included some of the things that I have done during my time as an undergrad. If you're interested
-      in seeing my resume, you can click <Link to='/'>here</Link>.
+      in seeing my resume, you can click <a href={resume}>here</a> (I'm also linking it above, for visibility).
     </p>
     <h4>A little more about me</h4>
     <p>As a student, I have been able to explore and learn a lot. Computer science is a vast field and there will

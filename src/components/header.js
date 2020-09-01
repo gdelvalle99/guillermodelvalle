@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import resume from '../downloads/resume.pdf'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -45,6 +46,14 @@ const Header = ({ siteTitle }) => (
             margin: 10,
           }}
           >Experience</Link>
+          <Link
+          to={resume}
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            margin: 10,
+          }}
+          >Resume</Link>
       </p>
     </div>
   </header>
